@@ -1,0 +1,6 @@
+framework module Pods_flixCodepathAD {
+  umbrella header "Pods-flixCodepathAD-umbrella.h"
+
+  export *
+  module * { export * }
+}
