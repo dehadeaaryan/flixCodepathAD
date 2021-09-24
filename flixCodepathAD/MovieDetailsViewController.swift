@@ -41,15 +41,6 @@ class MovieDetailsViewController: UIViewController {
         
     }
     
-    @IBAction func didTap(_ sender: UITapGestureRecognizer) {
-        
-        // let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let modalVC = storyboard?.instantiateViewController(withIdentifier: "ModalSeque") as! ModalViewController
-        
-        // present(modalVC, animated: true, completion: nil)
-        navigationController?.pushViewController(modalVC, animated: true)
-    }
-    
 
     // MARK: - Navigation
 
