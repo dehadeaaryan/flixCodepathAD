@@ -84,7 +84,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let movie = movies[indexPath.row]
         
         // Get the new view controller using segue.destination.
-        let detailsViewController = segue.destination as!MovieDetailsViewController
+        let detailsViewController = segue.destination as! MovieDetailsViewController
         
         // Pass the selected object to the new view controller.
         detailsViewController.movie = movie

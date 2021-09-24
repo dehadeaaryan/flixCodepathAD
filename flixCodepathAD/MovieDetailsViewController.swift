@@ -51,14 +51,18 @@ class MovieDetailsViewController: UIViewController {
     }
     
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let movie = movie
+        
         // Get the new view controller using segue.destination.
+        let modalViewController = segue.destination as! ModalViewController
+        
         // Pass the selected object to the new view controller.
+        modalViewController.movie = movie
     }
-    */
 
 }
