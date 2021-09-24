@@ -12,6 +12,7 @@
 
 ### App Walkthrough GIF
 ![gif](https://imgur.com/2fZUd26.gif)
+![bonus](https://imgur.com/zELZlxh.gif)
 
 
 ### Notes
